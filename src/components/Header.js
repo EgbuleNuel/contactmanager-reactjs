@@ -1,10 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 
 const Header = () => {
-  const { branding } = props;
+  const { branding } = PropTypes;
   return (
     <div>
+      {/* used bootstrap for styling here */}
       <nav className="navbar navbar-extend-sm navbar-dark bg-danger mb-3 py-0">
         <div className="container">
           <a href="/" className="navbar-brand">
