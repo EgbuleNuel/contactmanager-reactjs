@@ -4,7 +4,7 @@ import Contacts from "./components/contacts/Contacts";
 import AddContact from "./components/contacts/AddContact";
 import Header from "./components/layout/Header";
 import About from "./components/pages/About";
-import NotFOund from "./components/pages/NotFound";
+import NotFound from "./components/pages/NotFound";
 
 import { Provider } from "./context";
 
