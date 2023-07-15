@@ -4,6 +4,7 @@ import Contacts from "./components/contacts/Contacts";
 import AddContact from "./components/contacts/AddContact";
 import Header from "./components/layout/Header";
 import About from "./components/pages/About";
+import NotFOund from "./components/pages/NotFound";
 
 import { Provider } from "./context";
 
@@ -20,6 +21,7 @@ function App() {
               <Route exact path="/" component={Contacts} />
               <Route exact path="/contact/add" component={AddContact} />
               <Route exact path="/about" component={About} />
+              <Route component={NotFound} />
             </Switch>
           </div>
         </div>

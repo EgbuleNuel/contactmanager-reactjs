@@ -43,6 +43,9 @@ class AddContact extends Component {
       phone: "",
       errors: {},
     });
+
+    // to redirect to contact list after adding contact
+    this.props.history.push("/");
   };
 
   onChange = (e) => this.setState({ [e.target.name]: e.target.value });
